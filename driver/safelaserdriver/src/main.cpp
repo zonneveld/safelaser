@@ -72,7 +72,7 @@ void setup() {
 
 void loop()
 {
-  delay(1);
+  delay(5);
   if(Serial.available() > BUFFERCOUNT)
   {
     for(int i = 0; i < BUFFERCOUNT; i++)
