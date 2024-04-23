@@ -87,6 +87,8 @@ void loop()
     do_action(relays[3], getInstruction(inputbuffer[3]));
     do_action(relays[4], getInstruction(inputbuffer[4]));
 
+
+
     for(int  i = 0; i < RELAY_COUNT; i++)
     {
       Serial.print(digitalRead(relays[i]) == HIGH? '1': '0');
